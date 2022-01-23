@@ -1,7 +1,7 @@
 # Dungeons &amp; Monsters
 Dungeons & Monsters is a project to insert the pokemon world into the D&D system. <br>
 You can use this repository to get theraces, classes, feats, itens and creatures into your Aurora Builder and use it to make your own character sheets. <br>
-You can check Dungemons content [here](https://linktr.ee/fabiototy "Dungemons links")
+You can check Dungemons content [here](https://linktr.ee/fabiototy "Dungemons links").
 # Aurora
 Visit the [website](http://www.aurorabuilder.com "Aurora Website") for more information about the Aurora character builder and check out the [support page](http://www.aurorabuilder.com/support "Aurora Support Page") if you have any questions.<br> You can support the project by making a [donation](https://aurorabuilder.com/donate/).
 

@@ -1,11 +1,11 @@
-<?xml version="1" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <index>
 	<info>
 		<name>Dungeons &amp; Monsters</name>
 		<description>Supplements from Dungeons&amp;Monsters to use with the core Aurora elements.</description>
 		<author url="http://instagram.com/dungemons">Dungeons&amp;Monsters</author>
 		<update version="1">
-			<file name="dungemons.index" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/supplements.index" />
+			<file name="dungemons.index" url="https://raw.githubusercontent.com/yukitxz/dungemons/dungemons.index" />
 		</update>
 	</info>
 	<files>
