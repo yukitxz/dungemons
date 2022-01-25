@@ -5,7 +5,7 @@
 		<description>Dungeons &amp; Monsters is a project to insert the pokemon world into the D&amp;D system.
 linktr.ee/fabiototy</description>
 		<author url="https://linktr.ee/fabiototy">Fábio Toty</author>
-		<update version="1.0.0">
+		<update version="0.0.1">
 			<file name="dungemons.index" url="https://raw.githubusercontent.com/yukitxz/dungemons/dungemons.index" />
 		</update>
 	</info>
