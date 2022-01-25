@@ -2,29 +2,18 @@
 <elements>
 	<info>
 		<name>Pokemon Trainer</name>
-		<update version="0.4.1">
+		<update version="0.0.1">
 			<file name="class-pokemontrainer.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/core/players-handbook/classes/class-fighter.xml" />
 		</update>
 	</info>
 
 	<element name="Pokémon Trainer" type="Class" source="Dungemons" id="ID_DUNGEMONS_TRAINER">
 		<description>
-			<p>A human in clanging plate armor holds her shield before her as she runs toward the massed goblins. An elf behind her, clad in studded leather armor, peppers the goblins with arrows loosed from his exquisite bow. The half-orc nearby shouts orders, helping the two combatants coordinate their assault to the best advantage.</p>
-			<p class="indent">A dwarf in chain mail interposes his shield between the ogre’s club and his companion, knocking the deadly blow aside. His companion, a half-elf in scale armor, swings two scimitars in a blinding whirl as she circles the ogre, looking for a blind spot in its defenses.</p>
-			<p class="indent">A gladiator fights for sport in an arena, a master with his trident and net, skilled at toppling foes and moving them around for the crowd’s delight—and his own tactical advantage. His opponent’s sword flares with blue light an instant before she sends lightning flashing forth to smite him.</p>
-			<p class="indent">All of these heroes are fighters, perhaps the most diverse class of characters in the worlds of Dungeons &amp; Dragons. Questing knights, conquering overlords, royal champions, elite foot soldiers, hardened mercenaries, and bandit kings—as fighters, they all share an unparalleled mastery with weapons and armor, and a thorough knowledge of the skills of combat. And they are well acquainted with death, both meting it out and staring it defiantly in the face.</p>
-			<h4>WELL-ROUNDED SPECIALISTS</h4>
-			<p>Fighters learn the basics of all combat styles. Every fighter can swing an axe, fence with a rapier, wield a longsword or a greatsword, use a bow, and even trap foes in a net with some degree of skill. Likewise, a fighter is adept with shields and every form of armor. Beyond that basic degree of familiarity, each fighter specializes in a certain style of combat. Some concentrate on archery, some on fighting with two weapons at once, and some on augmenting their martial skills with magic. This combination of broad general ability and extensive specialization makes fighters superior combatants on battlefields and in dungeons alike.</p>
-			<h4>TRAINED FOR DANGER</h4>
-			<p>Not every member of the city watch, the village militia, or the queen’s army is a fighter. Most of these troops are relatively untrained soldiers with only the most basic combat knowledge. Veteran soldiers, military officers, trained bodyguards, dedicated knights, and similar figures are fighters.</p>
-			<p class="indent">Some fighters feel drawn to use their training as adventurers. The dungeon delving, monster slaying, and other dangerous work common among adventurers is second nature for a fighter, not all that different from the life he or she left behind. There are greater risks, perhaps, but also much greater rewards—few fighters in the city watch have the opportunity to discover a magic flame tongue sword, for example.</p>
-			<h4>CREATING A TRAINER</h4>
-			<p>As you build your fighter, think about two related elements of your character’s background: Where did you get your combat training, and what set you apart from the mundane warriors around you? Were you particularly ruthless? Did you get extra help from a mentor, perhaps because of your exceptional dedication? What drove you to this training in the first place? A threat to your homeland, a thirst for revenge, or a need to prove yourself might all have been factors.</p>
-			<p class="indent">You might have enjoyed formal training in a noble’s army or in a local militia. Perhaps you trained in a war academy, learning strategy, tactics, and military history. Or you might be self-taught—unpolished but well tested. Did you take up the sword as a way to escape the limits of life on a farm, or are you following a proud family tradition? Where did you acquire your weapons and armor? They might have been military issue or family heirlooms, or perhaps you scrimped and saved for years to buy them. Your armaments are now among your most important possessions—the only things that stand between you and death’s embrace.</p>
+			<p>
 			<h5>QUICK BUILD</h5>
-			<p>You can make a fighter quickly by following these suggestions. First, make Strength or Dexterity your highest ability score, depending on whether you want to focus on melee weapons or on archery (or finesse weapons). Your next-highest score should be Constitution. Second, choose the soldier background.</p>
+			<p>You can make a trainer quickly by following these suggestions. First, make Strength or Dexterity your highest ability score, depending on whether you want to focus on melee weapons or on archery (or finesse weapons). Your next-highest score should be Constitution. Second, choose a fitting background.</p>
 			<h3>CLASS FEATURES</h3>
-			<p>As a fighter, you gain the following class features.</p>
+			<p>As a Pokémon Trainer, you gain the following class features.</p>
             <h5>HIT POINTS</h5>
             <ul class="unstyled">
                 <li><strong>Hit Dice:</strong> 1d6 per trainer level</li>
@@ -101,46 +90,34 @@
 			<grant type="Class Feature" id="ID_DUNGEMONS_CLASS_FEATURE_MASTERSCOMMAND" level="1"/>
 			<grant type="Class Feature" id="ID_DUNGEMONS_CLASS_FEATURE_CAPTUREBONUS" level="2"/>
 			<grant type="Class Feature" id="ID_DUNGEMONS_CLASS_FEATURE_ABILITYSCOREIMPROVEMENT_TRAINER" level="4"/>
-			<grant type="Class Feature" id="ID_DUNGEMONS_CLASS_FEATURE_" level="5"/>
-			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_INDOMITABLE" level="9"/>
+			<grant type="Class Feature" id="ID_DUNGEMONS_CLASS_FEATURE_CHAMPION" level="20"/>
+			<grant type="Class Feature" id="ID_DUNGEMON_CLASS_FEATURE_POKEMONMASTER" level="14"/>
 		</rules>
 		<multiclass id="ID_DUNGEMONS_MULTICLASS_POKEMONTRAINER">
 			<prerequisite>Dexterity 13 or Charisma 13</prerequisite>
 			<requirements>([cha:13]||[dex:13])</requirements>
 			<setters>
-				<set name="multiclass proficiencies">Light armor, medium armor, shields, simple weapons, martial weapons</set>
+				<set name="multiclass proficiencies">Light armor, simple weapons, whip, berry tools</set>
 			</setters>
 			<rules>
 				<grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS" />
 				<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" />
-				<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR" />
-				<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_SHIELDS" />
 				<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" />
-				<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS" />
+				<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_WHIP" />
+				<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_BERRYTOOLS" />
 			</rules>
 		</multiclass>
 	</element>
-	<element name="Fighting Style" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_FIGHTINGSTYLE">
+	<element name="Monster Tamer" type="Class Feature" source="Dungemons" id="ID_DUNGEMONS_CLASS_FEATURE_MONSTERTAMER">
 		<description>
-			<p>You adopt a particular style of fighting as your specialty. Choose one of the following options. You can’t take a Fighting Style option more than once, even if you later get to choose again.</p>
-			<h5 class="caption">ARCHERY</h5>
-			<p>You gain a +2 bonus to attack rolls you make with ranged weapons.</p>
-			<h5 class="caption">DEFENSE</h5>
-			<p>While you are wearing armor, you gain a +1 bonus to AC.</p>
-			<h5 class="caption">DUELING</h5>
-			<p>When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon.</p>
-			<h5 class="caption">GREAT WEAPON FIGHTING</h5>
-			<p>When you roll a 1 or 2 on a damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2. The weapon must have the two-handed or versatile property for you to gain this benefit.</p>
-			<h5 class="caption">PROTECTION</h5>
-			<p>When a creature you can see attacks a target other than you that is within 5 feet of you, you can use your reaction to impose disadvantage on the attack roll. You must be wielding a shield.</p>
-			<h5 class="caption">TWO-WEAPON FIGHTING</h5>
-			<p>When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack.</p>
+			<p>You can control pokémon that you captured. Once per day you may create a magical bond with onde of the pokémon you have. You can only have one active bond at a time. A bonded creature will obey all your commands. As a Pokémon Trainer you start the game with one pokémon with the max CR of 1.</p>
+			<p>The maximum CR of the Pokémon you can bond is equal to half your total level rounded down + your capture bonus.</p>
 		</description>
 		<rules>
-			<select type="Class Feature" name="Fighting Style" supports="Fighting Style, Fighter" level="1"/>
+			<select type="Class Feature" name="Monster Tamer" supports="Monster Tamer, Pokémon Trainer" level="1"/>
 		</rules>
 	</element>
-	<element name="Second Wind" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_SECONDWIND">
+	<element name="Master's Command" type="Class Feature" source="Dungemons" id="ID_DUNGEMONS_CLASS_FEATURE_MASTERSCOMMAND">
 		<description>
 			<p>You have a limited well of stamina that you can draw on to protect yourself from harm. On your turn, you can use a bonus action to regain hit points equal to 1d10 + your fighter level.</p>
 			<p class="indent">Once you use this feature, you must finish a short or long rest before you can use it again.</p>
