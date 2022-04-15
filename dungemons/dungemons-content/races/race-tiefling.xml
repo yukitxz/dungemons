@@ -30,7 +30,7 @@
 			<p class="indent"><strong><em>Size.</em></strong> Tieflings are about the same size and build as humans. Your size is Medium.</p>
 			<p class="indent"><strong><em>Speed.</em></strong> Your base walking speed is 30 feet.</p>
 			<p class="indent"><strong><em>Darkvision.</em></strong> Thanks to your infernal heritage, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray.</p>
-			<p class="indent"><strong><em>Hellish Resistance.</em></strong> You have resistance to fire damage.</p>
+			<p class="indent"><strong><em>Hellish Resistance.</em></strong> You have resistance to necrotic damage.</p>
 			<p class="indent"><strong><em>Infernal Legacy.</em></strong> You know the thaumaturgy cantrip. Once you reach 3rd level, you can cast the hellish rebuke spell once per day as a 2nd-level spell. Once you reach 5th level, you can also cast the darkness spell once per day. Charisma is your spellcasting ability for these spells.</p>
 			<p class="indent"><strong><em>Languages.</em></strong> You can speak, read, and write Common and Infernal.</p>
 		</description>
@@ -58,13 +58,13 @@
 	</element>
 	<element name="Hellish Resistance" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_HELLISH_RESISTANCE">
 		<description>
-			<p>You have resistance to fire damage.</p>
+			<p>You have resistance to necrotic damage.</p>
 		</description>
 		<sheet>
-			<description>You have resistance to fire damage.</description>
+			<description>You have resistance to necrotic damage.</description>
 		</sheet>
 		<rules>
-			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_FIRE" />
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_NECROTIC" />
 		</rules>
 	</element>
 	<element name="Infernal Legacy" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_INFERNAL_LEGACY">
