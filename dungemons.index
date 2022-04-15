@@ -9,6 +9,6 @@
 		</update>
 	</info>
 	<files>
-		<file name="dungemons.index" url="https://raw.githubusercontent.com/yukitxz/dungemons/master/dungemons.index" />
+		<file name="class-trainer.index" url="https://raw.githubusercontent.com/yukitxz/dungemons/master/dungemons/dungemons-content/classes/class-trainer.xml" />
 	</files>
 </index>
