@@ -9,6 +9,6 @@
 		</update>
 	</info>
 	<files>
-		<file name="dungemons-content.index" url="https://raw.githubusercontent.com/yukitxz/dungemons/master/dungemons-content.index" />
+		<file name="dungemons.index" url="https://raw.githubusercontent.com/yukitxz/dungemons/master/dungemons.index" />
 	</files>
 </index>
